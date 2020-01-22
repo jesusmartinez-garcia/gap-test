@@ -1,4 +1,8 @@
 AvgOrdOfGroup := function(G)
+
+
+
+
 local sum, g;
 sum := 0;
 for g in G do
