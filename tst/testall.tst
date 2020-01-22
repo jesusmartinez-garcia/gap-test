@@ -18,10 +18,4 @@ gap> double(0);
 0
 gap> double(-1);
 -2
-gap> AvgOrdOfGroup(SymmetricGroup(3))
-13/6
-gap> AvgOrdOfGroup(SymmetricGroup(4))
-67/25
 # You can also test error messages, for example
-gap> double("a");
-Error, The argument must be an integer
