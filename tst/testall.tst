@@ -18,4 +18,7 @@ gap> double(0);
 0
 gap> double(-1);
 -2
+
 # You can also test error messages, for example
+gap> double("a");
+Error, The argument must be an integer
